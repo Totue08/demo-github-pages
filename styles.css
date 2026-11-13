@@ -3,49 +3,40 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 100vh;
     margin: 0;
+    color: #333;
 }
 
-/* Tarjeta principal */
-.card {
-    background-color: white;
-    padding: 40px;
-    border-radius: 15px;
-    text-align: center;
-    max-width: 400px;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Título */
-h1 {
-    color: #24292e;
-}
-
-/* Párrafos */
-p {
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Botón */
-a {
-    display: inline-block;
+/* Encabezado */
+header {
     background-color: #24292e;
     color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    margin-top: 15px;
+    text-align: center;
+    padding: 30px;
 }
 
-/* Efecto al pasar el mouse */
+/* Contenido principal */
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Enlaces */
+a {
+    color: #0969da;
+    text-decoration: none;
+}
+
 a:hover {
-    background-color: #444;
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
 }
